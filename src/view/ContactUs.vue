@@ -1,38 +1,39 @@
 <template>
   <div id="ContactUs">
-    <div class="banner container-fuild text-center">联系我们</div>
+    <div class="banner container-fuild text-center">CONTACT US</div>
     <div class="container">
       <div class="container-fuild ContactUs-container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-6">
             <form class="form-horizontal" role="form">
               <div class="form-group">
-                <label for="name" class="col-sm-2 control-label">姓名</label>
+                <label for="name" class="col-sm-2 control-label">Name</label>
                 <div class="col-sm-10 col-xs-12">
-                  <input type="text" class="form-control" id="name" placeholder="请输入名字">
+                  <input type="text" class="form-control" id="name" placeholder="name">
                 </div>
               </div>
               <div class="form-group">
-                <label for="email" class="col-sm-2 control-label">邮箱</label>
+                <label for="email" class="col-sm-2 control-label">E-mail</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="email" placeholder="请输入邮箱">
+                  <input type="text" class="form-control" id="email" placeholder="email">
                 </div>
               </div>
               <div class="form-group">
-                <label for="tel" class="col-sm-2 control-label">电话</label>
+                <label for="tel" class="col-sm-2 control-label">Tel</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="tel" placeholder="请输入电话">
+                  <input type="text" class="form-control" id="tel" placeholder="tel">
                 </div>
               </div>
               <div class="form-group">
-                <label for="content" class="col-sm-2 control-label">内容</label>
+                <label for="content" class="col-sm-2 control-label">
+                  message</label>
                 <div class="col-sm-10">
-                  <textarea class="form-control" id="content" rows="8" placeholder="请输入内容"></textarea>
+                  <textarea class="form-control" id="content" rows="8" placeholder="Leaving a message"></textarea>
                 </div>
               </div>
               <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-default btn-block">提交</button>
+                  <button type="submit" class="btn btn-default btn-block">commit</button>
                 </div>
               </div>
             </form>
@@ -63,10 +64,10 @@ export default {
     var opts = {
       width: 50, // 信息窗口宽度
       height: 10, // 信息窗口高度
-      title: "中盛软件技术有限公司" // 信息窗口标题
+      title: "Zhongsheng software technology co. LTD" // 信息窗口标题
     };
     var infoWindow = new BMap.InfoWindow(
-      "地址：佛山市禅城区季华西路绿岛湖行政服务中心B座1104室",
+      "Address :1104 administrative service center building B ,Ji Hua West road green Island Lake , Chancheng District, Foshan City, Guangdong, China",
       opts
     ); // 创建信息窗口对象
     map.openInfoWindow(infoWindow, map.getCenter()); // 打开信息窗口

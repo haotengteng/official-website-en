@@ -1,6 +1,6 @@
 <template>
   <div id="ServiceDetail">
-    <div class="banner container-fuild text-center">相关服务</div>
+    <div class="banner container-fuild text-center">SERVICE</div>
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-3" id="myScrollspy">
@@ -19,7 +19,7 @@
           <div class="content-block" v-for="(item,index) in serviceContentList" :key="index">
             <h2 :id="item.id">
               {{item.title}}
-              <small>/ {{item.eng_title}}</small>
+              <small> {{item.eng_title}}</small>
             </h2>
             <div v-html="item.content"></div>
           </div>
@@ -38,7 +38,7 @@ export default {
       serviceNavList: [
         {
           id: "section-1",
-          title: "软件定制开发"
+          title: "Customize App"
         },
         // {
         //   id: "section-2",
@@ -46,18 +46,18 @@ export default {
         // },
         {
           id: "section-3",
-          title: "网上商城建设"
+          title: " eCommerce Site"
         },
         {
           id: "section-4",
-          title: "系统优化"
+          title: "system optimization"
         }
       ],
       serviceContentList: [
         {
           id: "section-1",
-          title: "软件定制开发",
-          eng_title: "Customize App",
+          title: "Customize App",
+          eng_title: "",
           content:
             "<h3>后台系统 & 生产系统</h3><p>管理各种业务数据，权限与功能控制，了解生产进度状态，ERP、OA、CRM、MES系统\n" +
               "企业内部管理系统B/S架构、Web网页版系统、C/S架构客户端软件、HTML5+CSS3响应式布局、MySQL+Java架构</p>" +
@@ -76,8 +76,8 @@ export default {
         ,
         {
           id: "section-3",
-          title: "网上商城建设",
-          eng_title: "eCommerce Site",
+          title: "eCommerce Site",
+          eng_title: "",
           content:
             "<h3>零售版</h3><p>1.快速搭建B2C零售商城，快速铺货；2.多款吸粉利器，持续为店铺引流促销；</p>" +
               "<h3>分销版</h3><p>1.裂变分销，以客推客，打造超强分销大军；2.开启分销店中店，分销商也有自己的店铺；3.多维度佣金激励政策，刺激人人分享卖货；</p>"+
@@ -85,8 +85,8 @@ export default {
         },
         {
           id: "section-4",
-          title: "系统优化",
-          eng_title: "system optimization",
+          title: "system optimization",
+          eng_title: "",
           content:
             "<h3>系统调优</h3><p>为您解决当前系统存在的疑难问题，突破性能瓶颈，助力高效生产</p>"
         }

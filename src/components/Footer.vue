@@ -3,16 +3,16 @@
     <!--<div class="logo">-->
       <!--<img src="@/assets/img/logo.png" alt="logo图">-->
     <!--</div>-->
-    <p class="title">中盛软件技术有限公司</p>
+    <p class="title">Zhongsheng software technology co. LTD</p>
     <p class="address_tel_fax">
-      <span>地址：佛山市禅城区季华西路绿岛湖行政服务中心B座1104室</span>
-      <span>电话：0757-82501253</span>
+      <span>Address :1104 administrative service center building B  ,Ji Hua West road green Island Lake , Chancheng District, Foshan City, Guangdong, China</span>
+      <span>Tel：0757-82501253</span>
 
     </p>
     <p class="email_wx">
-      <span>邮箱：sale@zhongshengsoft.com</span>
+      <span>E-mail：sale@zhongshengsoft.com</span>
     </p>
-    <p class="copy">Copyright &copy; 2019 - 2020 中盛软件技术有限公司</p>
+    <p class="copy">Copyright &copy; 2019 - 2020 zhongsheng software technology co. LTD</p>
   </div>
 </template>
 <script>

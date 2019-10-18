@@ -7,12 +7,12 @@
         <div class="server pull-left">
           <span class="glyphicon glyphicon-earphone"></span>0757-82501253
           <span class="glyphicon glyphicon-envelope"></span>sale@zhongshengsoft.com
-          <span class="glyphicon glyphicon-time"></span>7x24小时为您服务
+          <span class="glyphicon glyphicon-time"></span>7x24 hours for you
         </div>
         <div class="shejiao pull-right">
-          <span class="glyphicon glyphicon-hand-right"></span>赶快联系我们吧！
+          <span class="glyphicon glyphicon-hand-right"></span>contact us now!
           <span class="glyphicon glyphicon-hand-left"></span>
-          <a id="language" class="btn btn-default btn-xs" href="http://localhost:8888/#/service" role="button" >EN</a>
+          语言: <a id="language" class="btn btn-default btn-xs" href="http://www.zhongshengsoft.com" role="button" > 中</a>
         </div>
       </div>
     </div>
@@ -85,16 +85,16 @@ export default {
   data() {
     return {
       navIndex: sessionStorage.getItem('navIndex') ? sessionStorage.getItem('navIndex') : 0,
-      menuName: "首页",
+      menuName: "HOME",
       menuClass: "glyphicon glyphicon-menu-down",
       navList: [
         {
-          name: "首页",
+          name: "HOME",
           path: "/",
           children: []
         },
         {
-          name: "软件产品",
+          name: "SOFTWARE",
           path: "/software",
           children: [
             {
@@ -108,17 +108,17 @@ export default {
           ]
         },
         {
-          name: "相关服务",
+          name: "SERVICE",
           path: "/service",
           children: []
         },
         {
-          name: "新闻动态",
+          name: "NEWS",
           path: "/newsinformation",
           children: []
         },
         {
-          name: "公司介绍",
+          name: "INTRODUCTION",
           path: "/companyintroduction",
           children: []
         },
@@ -128,7 +128,7 @@ export default {
         //   children: []
         // },
         {
-          name: "联系我们",
+          name: "CONTACT US",
           path: "/contactus",
           children: []
         }

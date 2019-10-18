@@ -29,31 +29,38 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
           <h2 class="bigData-title">
-            中盛软件
-            <small>/ ZhongSheng Software</small>
+            ZhongSheng Software
+<!--            <small>/ </small>-->
           </h2>
-          <p>我们是一支有担当的团队，成员均拥有多年的软件开发技术背景，多名来自国内大型公司的技术骨干，团队对主流和前言
-            的技术储备都非常深厚，如在：微服务，分布式事务等方面有一系列的解决方案，传统软件设计方面，采用于后期维护的主流设计语言（JAVA、PHP），
-            设计过程中，按照业务类型实现代码模块划分，清晰解耦，便于维护。
-            我们是一支专注的团队。我们坚信，我们的成绩源自客户的认可。
-            我们有一个共同的梦想：做一家有价值的互联网软件开发企业，为客户提供可信赖的软件开发服务。</p>
-          <p>我们正在服务吉利、海尔、上海通用等世界500强企业,如：海尔的员工考勤和技能考核系统、吉利的车辆测试信息存储系统等
-            用服务大型企业的经历淬炼团队，使团队更加成熟、稳定、高效的同时，拥有持续创新的眼界和头脑，让您的所得超越所想。</p>
-          <h2 class="bigData-device">专业 · 负责 · 优质</h2>
-          <a href="#" class="btn btn-lg btn-block btn-info">联系我们</a>
+          <p>We are a responsible team, currently has 35 software designers and members are with many years of software development and technical background,
+            a number of technical backbone from large domestic companies,
+            the team is very deep to mainstream and the introduction of technical reserves,
+            such as: micro service, distributed transaction and so on a series of solutions,
+            the traditional software design, USES in the mainstream of the late maintenance design languages (JAVA, PHP),
+            the design process, according to the type of business implementation code module partition, clear decoupling,
+            easy to maintain. We are a dedicated team. We firmly believe that our achievements come from the recognition of customers.
+            We have a common dream: to be a valuable Internet software development enterprise, to provide reliable software development services for customers at home and abroad.</p>
+          <p>We are service geely, haier, Shanghai gm, such as the world top 500 enterprises,
+            such as: haier's employees' attendance and skill examination system, geely's vehicle test information storage system, etc.,
+            with large enterprise service experience refined through team, make the team more mature, stable, efficient and at the same time,
+            with continuous innovation of vision and mind, let your income beyond thought.
+            At present, we focus on developing overseas markets and provide software outsourcing services for developed countries such as Europe, America and Hong Kong</p>
+<!--          <h2 class="bigData-device">专业 · 负责 · 优质</h2>-->
+          <a href="#" class="btn btn-lg btn-block btn-info">Contact Us</a>
         </div>
       </div>
     </div>
     <!-- 您身边的IT专家 -->
     <div id="contactUs" class="container-fuild text-center">
       <div class="container contactUs-container wow slideInUp">
-        <h1>您身边的IT专家</h1>
-        <h3>7x24小时提供出色的IT服务</h3>
+        <h1>
+          IT EXPERTS AROUND YOU</h1>
+        <h3>7x24 hours to deliver outstanding IT services</h3>
         <button
           class="btn btn-default btn-sm"
           onmouseleave="this.style.borderColor='#ffffff'; this.style.backgroundColor='#ffffff'; this.style.color='#3f3f3f';"
           onmouseenter="this.style.backgroundColor='transparent'; this.style.borderColor='#ffffff'; this.style.color='#ffffff';"
-        >联系我们</button>
+        >Contact Us</button>
         <div class="contactUs-contactWay">
           <span></span>
           <span></span>
@@ -64,7 +71,7 @@
     <!-- 客户评价 -->
     <div id="customer" class="container-fuild">
       <div class="container customer-container">
-        <p class="customer-title text-center">客户评价</p>
+        <p class="customer-title text-center">Customer Evaluation</p>
         <div class="swiper-container customer-swiper hidden-xs">
           <div class="swiper-wrapper">
             <div
@@ -110,7 +117,7 @@
     <div id="whyChooseUs" class="conatiner-fuild">
       <div class="container">
         <div class="whyChooseUs-title text-center">
-          <p>为什么选择我们的服务</p>
+<!--          <p>为什么选择我们的服务</p>-->
           <p>THE REASON TO CHOOSING US</p>
         </div>
         <div class="row">
@@ -150,71 +157,71 @@ export default {
         {
           img: require("@/assets/img/contact_us_bg.jpg"),
           path: "",
-          title: '中盛软件技术有限公司',
-          content: '真诚服务，客户第一，品质优秀，认真负责',
+          title: 'Zhongsheng software technology co. LTD',
+          content: 'Sincere service、 Customer first、Excellent quality、 Conscientious and responsible',
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
-          title: '中盛软件技术有限公司',
-          content: '真诚服务，客户第一，品质优秀，认真负责',
+          title: 'Zhongsheng software technology co. LTD',
+          content: 'Sincere service、 Customer first、Excellent quality、 Conscientious and responsible',
         },
         {
           img: require("@/assets/img/contact_us_bg.jpg"),
           path: "",
-          title: '中盛软件技术有限公司',
-          content: '真诚服务，客户第一，品质优秀，认真负责',
+          title: 'Zhongsheng software technology co. LTD',
+          content: 'Sincere service、 Customer first、Excellent quality、 Conscientious and responsible',
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
-          title: '中盛软件技术有限公司',
-          content: '真诚服务，客户第一，品质优秀，认真负责',
+          title: 'Zhongsheng software technology co. LTD',
+          content: 'Sincere service、 Customer first、Excellent quality、 Conscientious and responsible',
         }
       ],
       customerList: [
         {
           logo: require("@/assets/img/logo_jl.jpg"),
           title:
-            "吉利车辆测试信息存储系统",
+            "Geely vehicle test information storage system",
           content:
-            "与中盛软件技术公司的多次合作都十分愉快，该司在软件开发领域的专业素质非常高，开发过程中沟通积极，认真负责，是一个值得信赖的好伙伴。"
+            "The cooperation with zhongsheng software technology co., ltd. has been very pleasant. The company has a high professional quality in the field of software development.This is a good choice for many customers who need software design."
         },
         {
           logo: require("@/assets/img/logo_hl.jpg"),
           title:
-            "员工考勤和技能考核系统",
+            "Employee attendance and skill assessment system",
           content:
-            "中盛软件开发公司，专业素质过硬，软件质量高，软件设计过程中真正的站在了客户的角度解决问题，业务专业，整体实力高超。"
+            "Zhongsheng software development company, professional quality is excellent, the software quality is high, the software design process really stand in the customer's point of view to solve the problem, professional business, the overall strength is superb."
         },
         {
           logo: require("@/assets/img/logo_toyota.png"),
           title:
-            "丰田集团积分商城系统",
+            "Toyota group point mall system",
           content:
-            "该司认真负责，合作过程中，细节设计合理，软件性能高，代码设计合理，交付及时，极大地节省了我们的人力成本，是我们公司以后合作的重要对象"
+            "The company is serious and responsible. In the process of cooperation, the detailed design is reasonable, the software performance is high, the code design is reasonable and the delivery is timely, which greatly saves our labor cost and is an important object for our future cooperation"
         }
       ],
       serverList: [
         {
           logo: require("@/assets/img/tel.png"),
-          title: "核心优势1",
-          content: "<p>由专业客服提供人工服务</p>负责疑难问题和故障受理"
+          title: "Core advantage 1",
+          content: "<p>Manual service provided by professional customer service</p>Be responsible for trouble shooting and trouble shooting"
         },
         {
           logo: require("@/assets/img/computer.png"),
-          title: "核心优势2",
-          content: "<p>利用远程视频工具，提供协助</p>帮助客户进行调试、解决故障"
+          title: "Core advantage 2",
+          content: "<p>Provide assistance using remote video tools</p>Help customers to debug and solve problems"
         },
         {
           logo: require("@/assets/img/qq.png"),
-          title: "核心优势3",
-          content: "<p>利用企业QQ提供在线解答</p>帮助企业快速准确解决问题和故障"
+          title: "Core advantage 3",
+          content: "<p>Provide online solutions</p>Help enterprises to solve problems and faults quickly and accurately &ensp;  &ensp; &ensp; "
         },
         {
           logo: require("@/assets/img/skill.png"),
-          title: "核心优势4",
-          content: "<p>技术工程师专业技能过硬，经验丰富，负责问题解答及故障受理"
+          title: "Core advantage 4",
+          content: "<p>Technical engineer professional skills, rich experience, responsible for problem solving and fault acceptance"
         }
       ]
     };
