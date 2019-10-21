@@ -24,10 +24,10 @@ export default {
             softwareList: [
                 {
                     path: '/software/smartTown',
-                    name: '某某管理系统'
+                    name: 'Decathlon official website mall'
                 },{
                     path: '/software/bigData',
-                    name: '某某管理系统'
+                    name: 'Australian farm farming service system'
                 }
             ]
         }

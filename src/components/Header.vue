@@ -98,11 +98,11 @@ export default {
           path: "/software",
           children: [
             {
-              name: "某某管理系统",
+              name: "Decathlon official website mall",
               path: "/software/smartTown"
             },
             {
-              name: "某某管理系统",
+              name: "Australian farm farming service system",
               path: "/software/bigData"
             }
           ]
