@@ -1,18 +1,32 @@
 <template>
     <div id="Software">
-      <h4>客户背景</h4>
-      客户是澳洲一家提供农场耕作服务软件的解决方案提供商，其用户为分布在澳洲和新西兰的大型农场主。高机械化在给耕作带来方便的同时，也面临着众多机械设备和农场地块的管理问题。而采用物联网的手段，使机械化种植进一步升级为智能化种植成为农场管理信息化的必走之路。
-
-      <h4>项目需求</h4>
-      农场主每年需要把农场种植相关的耕地、撒药和收割部分外包给一些专业的耕作承包商，而农场主基于自己想管理耕地和跟踪耕作情况的需求，需要一个系统来帮助跟踪每一辆拖拉机的作业进度；同时对天气状况进行监测，以便采取最优种植方案，避免损失的发生，实现农场种植智能化。
+      <h4>Customer background</h4>
+      The client is an Australian solution provider of farm farming service software to large farmers in Australia and New Zealand.
+      While high mechanization brings convenience to farming, it also faces many problems of mechanical equipment and management of farm plots.
+      Using the Internet of things to further upgrade mechanized planting to intelligent planting has become a necessary road for the informationization of farm management.
+      <h4>The project requirements</h4>
+      Farmers need to outsource the farming, spraying and harvesting of their fields to professional farming contractors each year,
+      and farmers need a system to help track the progress of each tractor, based on their need to manage their fields and track their progress.
+      At the same time, the weather condition is monitored so as to adopt the optimal planting scheme, avoid the loss and realize the intelligent farming.
       <img src="../assets/img/nc_bigdata.png" style="margin: 15px auto ">
-      <h4>项目方案</h4>
-      物联网技术在这个项目中得到充分应用。客户第一期版本涉及Web，App和硬件三个部分。中盛软件建立了一个软硬结合的五人开发小组承担了项目的实施，一期项目开发周期三个月。
-      <h4>合作方式</h4>
-      <h5>持续集成两周一迭代</h5>
-      如何能够在三个月的时间里完成客户的所有需求，并且保证提交的版本能够帮助客户解决实际业务问题？这就需要让客户尽早知道正在开发的软件是否符合其业务需求，同时将其反馈意见尽快应用到正在开发的软件上。为了达到这个目的，我们采取了持续集成、两周一迭代的开发方法，使客户能够每周用到、和评估不断“长大”和完善的软件。通过对软件的使用尽早地发现问题，并且通过和中盛软件团队的合作在最短的时间内解决问题，减少风险和浪费，使开发效率达到最高。
-      <h5>加强沟通过程透明</h5>
-      在整体的开发进展中，开发团队和客户之前是透明的。通过每天的邮件、即时通讯工具和项目管理工具，客户能够直接了解到开发团队的进展情况和遇到的问题，以便及时对已完成的功能提供足够的反馈；也能够及时了解开发团队遇到的困难和问题，从用户角度和资源协调方面给予相应的支持。同时，每周还有语音会议来加强了客户跟团队的沟通。
+      <h4>Project plan</h4>
+      Internet of things technology is fully applied in this project. The first version of the client involves three parts: Web, App and hardware. Zhongsheng software has established a five-person development team that combines
+      software and hardware to undertake the implementation of the project. The first phase of the project has a development cycle of three months.
+      <h4>Method of cooperation</h4>
+      <h5>Continuous integration biweekly iteration</h5>
+      How can you complete all of the customer's requirements in three months and ensure that the submitted version helps the customer solve the actual business problem?
+      This requires customers to know early on whether the software they are developing fits their business needs,
+      and to apply their feedback to the software they are developing as soon as possible.
+      To this end, we have adopted a continuous integration,
+      bi-weekly iterative development approach that enables customers to use and evaluate software that is "growing" and improving on a weekly basis.
+      Through the use of software as early as possible to find problems,
+      and through the cooperation with the sheng software team to solve problems in the shortest time, reduce risks and waste, so as to achieve the highest development efficiency.
+      <h5>Enhance transparency in the communication process</h5>
+      The development team and the customer were previously transparent in their overall development progress. Through daily email,
+      instant messaging and project management tools, customers can directly know the progress and problems of the development team,
+      so as to provide adequate feedback on the completed functions in a timely manner.
+      I am also able to timely understand the difficulties and problems encountered by the development team and provide corresponding support from the perspective of users and resource coordination.
+      At the same time, there are weekly voice meetings to strengthen the communication between customers and the team.
     </div>
 
 </template>

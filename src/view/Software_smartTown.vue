@@ -1,25 +1,25 @@
 <template>
     <div id="smartTown">
-      客户和需求
-      客户是一家体育用品零售商，是一家集运动产品设计、研发、生产和零售于一体的全产业链集团。
-
-      客户希望通过新零售模式来推动运动服装定制业务的发展。新零售模式将连接并整合线上、线下的消费者和交易，实现人、商品和商店的重建，以解决以下问题：
-
-      消费者在购买后立即结束交易，消费者和零售商（商店）之间没有任何互动或反馈，迫切需要将线上渠道整合到传统业务中。
-
-      客户的线下商店总是抢占优势地点的流量，但客户突然意识到，其竞争对手不仅仅来自于线下品牌，更多的来自在线电子商务平台。电子商务行业的快速发展使得转型迫在眉睫。
-
-      中盛软件需要为客户建立一个电子商务网站和健身APP，以便为客户转型到新零售业务模式提供强有力的支持。
+      Customer and demand customer is a sporting goods retailer, is a collection of sports product design, research and development,
+      production and retail in one of the whole industrial chain group. Customers hope to drive the development of sportswear customization business through the new retail model.
+      The new retail model will connect and integrate online and offline consumers and transactions, and realize the reconstruction of people, goods and stores to solve the following problems:
+      consumers immediately end the transaction after purchase, there is no interaction or feedback between consumers and retailers (stores),
+      and there is an urgent need to integrate online channels into traditional businesses. Customers' offline stores always seize the traffic from advantageous locations,
+      but customers suddenly realize that their competitors are not only from offline brands, but also from online e-commerceplatforms. The rapid development of e-commerce industry makes the transformation extremely urgent.
+      Zhongsheng software needs to build an e-commerce website and fitness APP for customers to provide strong support for customers to transition to the new retail business model.
       <br>
       <img src="../assets/img/dkn_smartTown.png">
 
-      我们怎么做
-      电子商务网站的主要目的是促进运动服装定制业务的发展。根据客户需求，中盛软件成立了一支由7名成员组成的团队。其中，三名团队成员负责电子商务网站开发和业务逻辑分析，
-      另外四名负责3D和2D编辑器制作。团队的主要任务是实现客户提供的线框原型并解决与2D和3D相关的问题。
-
-      随着电子商务网站的顺利进行，客户提出了开发健身APP的需求。作为一个没有自己的技术人员的传统零售商，客户对这个APP应该做成什么样并没有清晰的思路。针对这种情况，
-      我们首先提供了咨询服务。通过对当下热门健身APP，比如KEEP，NIKE +等激烈的竞争市场100多名参与者的竞争格局进行分析以及对客户业务的了解，我们提出了一个解决方案，
-      展示了客户的APP如何在市场中生存并取得成功。然后，通过对解决方案的一致认可，我们构建了一个由设计人员和开发人员组成的6人应用APP开发团队。经过3个月的合作，该应用APP成功交付。
+      The main purpose of e-commerce website is to promote the development of sports apparel customization business. According to customer demand,
+      zhongsheng software has set up a team of 7 members. Three team members are responsible for e-commerce website development and business logic analysis,
+      and the other four are responsible for 3D and 2D editor production.
+      The main task of the team was to implement the customer supplied wireframe prototype and solve the problems related to 2D and 3D.
+      With the smooth development of e-commerce websites, customers have put forward the need to develop fitness apps. As a traditional retailer without its own technical staff,
+      customers don't have a clear idea of what the APP should be. In this case, we first provided consulting services.
+      By analyzing the competitive pattern of more than 100 participants in the fierce competitive market of popular fitness apps,
+      such as KEEP and NIKE +, and understanding the customer's business, we put forward a solution to show how the customer's APP can survive and succeed in the market.
+      Then, by agreeing on the solution, we built a six-person application development team of designers and developers. After three months of cooperation,
+      the APP was successfully delivered.
       <img src="../assets/img/dkn_smartTown2.png">
     </div>
 </template>

@@ -2,12 +2,12 @@
     <div id="NewsInformation">
         <div class="container">
             <div class="container text-center">
-                <h3>新闻动态</h3>
-                <p style="color:#b2b2b2">Company News</p>
+<!--                <h3>News</h3>-->
+<!--                <p style="color:#b2b2b2"> News</p>-->
             </div>
             <div class="nav container text-center">
-                <a href="#" class="active">公司新闻</a>
-                <a href="#">行业动态</a>
+                <a href="#" class="active">Company News</a>
+<!--                <a href="#">行业动态</a>-->
             </div>
             <ul class="news-container container-fuild">
                 <li v-for="(item,index) in newsList" :key="index" class="wow fadeIn">
@@ -40,26 +40,26 @@ export default {
             newsList:[
                 {
                     id: '001',
-                    title: 'Windows 10或将重新请回毛玻璃特效',
-                    introduce: '有消息显示，Win10之后的更新有可能将重新请回Aero Glass最近关于Windows 10的“Project Neon”计划项目受到了更多的关心，据悉该项目的重点内容是对Win10的用户UI进行一次大幅度改造。',
+                    title: 'Windows 10 May be back to ground-glass effects',
+                    introduce: 'Some news shows that the update after Win10 is likely to bring back Aero Glass recently about Windows 10 "Project Neon" Project has received more attention, it is reported that the focus of the Project is to Win10 user UI a major renovation.',
                     date: '05-24',
                     year: '2018'
                 },{
                     id: '002',
-                    title: '微软通告Windows Vista生命周期将至',
-                    introduce: '根据微软的生命周期图，Windows Vista将于今年4月11日停止所有支持，届时该系统将不再能够接收到来自微软的安全更新，尚未修复的各种漏洞也将会成为黑客攻击的目标',
+                    title: 'Microsoft has announced the Windows Vista life cycle is approaching',
+                    introduce: 'According to Microsoft\'s life cycle diagram, Windows Vista will no longer be able to receive security updates from Microsoft when all support is discontinued on April 11, and various bugs that have not been fixed will be targeted by hackers',
                     date: '07-24',
                     year: '2018'
                 },{
                     id: '003',
-                    title: '耗时五年 苹果终于购入iCloud.net域名',
-                    introduce: '据悉，iCloud.net是一家国内的社交网站，提供一站式内容查询，可以查看朋友发布的最新内容。而在苹果收购该域名之后，该网站将在月底停止所有服务。',
+                    title: 'It took five years for apple to finally buy the iCloud.net domain name',
+                    introduce: 'It is reported that iCloud.net is a domestic social networking site, providing one-stop content query, can view friends published the latest content. After apple bought the domain, the site will stop all services at the end of the month.',
                     date: '02-20',
                     year: '2019'
                 },{
                     id: '004',
-                    title: '第十二届中国软件渠道大会全面开启',
-                    introduce: '北京2019年2月16日电 /美通社/ -- 由中国软件网主办的2017中国软件生态大会将步入第十二个年头，此次大会一如既往，将带来强大的嘉宾阵容、极具专业、洞察与价值的内容及互动以及最激烈的生态对接与思想碰撞。',
+                    title: 'The 12th China software channel conference opened',
+                    introduce: 'Beijing, Feb. 16, 2019 -- the 2017 China software ecology conference hosted by China software network will enter its 12th year. As always, the conference will bring a strong lineup of guests, highly professional, insightful and valuable content and interaction, as well as the most intense ecological docking and collision of ideas.',
                     date: '03-14',
                     year: '2019'
                 }

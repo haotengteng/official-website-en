@@ -3,7 +3,7 @@
         <div class="row">
             <div id="left" class="col-md-4 col-xs-12">
                 <ul class="left-container wow bounceInLeft">
-                    <p>软件产品</p>
+                    <p>software</p>
                     <li v-for="(item,index) in softwareList" :key="index">
                         <router-link :to=item.path>{{item.name}}</router-link>
                     </li>
@@ -43,7 +43,7 @@ export default {
     margin: 50px 0;
 }
 .left-container{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     border: 1px solid #474747;
     border-radius: 5px;
